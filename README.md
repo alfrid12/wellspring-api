@@ -13,3 +13,6 @@ Express server runs on port 5000
 
 Miscellaneous Links:
 Mongo shell commands - https://www.mongodb.com/docs/mongodb-shell/crud/insert/
+
+
+git remote set-url origin https://yourusername@github.com/user/repo.git
