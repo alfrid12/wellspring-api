@@ -8,6 +8,7 @@
 3. npm i
 4. node reset-database.js
 5. npm start
+6. check if API is working properly by navigating to http://localhost:5000/runs in a web browser. Should return six run objects
 
 ## Troubleshooting
 * Make sure NodeJS version is 18: node -v
