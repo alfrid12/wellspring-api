@@ -6,32 +6,32 @@ const DatabaseConfig = require('./database-config');
 const initialRuns = [{
     trainLineName: "El",
     routeName: "Brown Line",
-    runId: "E102",
+    runNumber: "E102",
     operatorId: "SJones"
 }, {
     trainLineName: "Metra",
     routeName: "UPN",
-    runId: "M405",
+    runNumber: "M405",
     operatorId: "AJohnson"
 }, {
     trainLineName: "Metra",
     routeName: "UPN",
-    runId: "M511",
+    runNumber: "M511",
     operatorId: "YSmith"
 }, {
     trainLineName: "Amtrak",
     routeName: "Hiawatha",
-    runId: "A006",
+    runNumber: "A006",
     operatorId: "LBeck"
 }, {
     trainLineName: "El",
     routeName: "Red Line",
-    runId: "E432",
+    runNumber: "E432",
     operatorId: "LHill"
 }, {
     trainLineName: "Amtrak",
     routeName: "Hiawatha",
-    runId: "A005",
+    runNumber: "A005",
     operatorId: "LBeck"
 }]
 

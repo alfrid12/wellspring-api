@@ -16,4 +16,30 @@ router.get('/runs', (req, res, next) => {
     });
 });
 
+router.post('/runs', (req, res, next) => {
+    DatabaseService.createRun(req.body).then(successResult => {
+        res.send(successResult);
+    }).catch(error => {
+        res.send(error);
+    });
+});
+
+router.put('/runs/:runId', (req, res, next) => {
+    const runId = req.params.runId;
+    const run = req.body;
+    DatabaseService.updateRun(runId, run).then(runs => {
+        res.send(runs);
+    }).catch(error => {
+        res.send(error);
+    });
+});
+
+router.delete('/runs/:runId', (req, res, next) => {
+    DatabaseService.deleteRun(req.params.runId).then(successResult => {
+        res.send(successResult);
+    }).catch(error => {
+        res.send(error);
+    });
+});
+
 module.exports = router;
